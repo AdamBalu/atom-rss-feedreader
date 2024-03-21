@@ -1,6 +1,6 @@
-#include "proc_response.h"
-#include "feedreader.h"
-#include "local_error.h"
+#include "proc_response.hpp"
+#include "feedreader.hpp"
+#include "local_error.hpp"
 #include <fstream>
 #include <cstring>
 #include <iostream>

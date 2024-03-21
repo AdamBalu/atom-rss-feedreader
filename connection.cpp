@@ -1,4 +1,4 @@
-#include "connection.h"
+#include "connection.hpp"
 #include <openssl/bio.h>
 #include <openssl/ssl.h>
 #include <regex>

@@ -1,4 +1,4 @@
-#include "local_error.h"
+#include "local_error.hpp"
 #include <iostream>
 
 using namespace std;

@@ -2,10 +2,10 @@
 #include <iostream>
 #include <regex>
 #include <fstream>
-#include "feedreader.h"
-#include "connection.h"
-#include "proc_response.h"
-#include "local_error.h"
+#include "feedreader.hpp"
+#include "connection.hpp"
+#include "proc_response.hpp"
+#include "local_error.hpp"
 
 void checkOtherParamsProvided(int argc, char **argv, userData *userData) {
     for (; optind < argc; optind++) {
